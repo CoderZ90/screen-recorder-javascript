@@ -1,0 +1,25 @@
+Hello guys this video is divided into three parts
+Part one - Project Setup
+Part Two - Html & CSS [ We are using Tailwind css for responsive design ]
+Part Three - Javascript :D
+
+// Setup
+Before this type -> npm init -y
+Type - npm install tailwindcss or yarn add tailwindcss
+- also guys the screen recorder we are going to build can record video in 720p quality which is great right ? 😊
+- Now type ->  npx tailwindcss init
+Now we have to do some edit in package.json file
+
+// Part Two
+
+Type -> `npm run css (if using npm) or yarn css (if using yarn)`
+
+// Part Three 
+
+Lets Code our javascript 
+
+Logic - 
+
+ When the user clicks on the start button start the recording but before starting we need to check which screen the user wants to record and then ask the user for mic acess and then start recording. When the user clicks on the stop button we need to stop the recording and then stop the display showing in the screen ( during recording time ) and then scroll to bottom to the download section where we need to download the video. When we click on the download button download the video and Boom! 💥
+
+So Now lets get Rocking! Boiis

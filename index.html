@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./dist/style.css">
+	<title>Screen Recorder</title>
+</head>
+
+<body class="bg-gray-800 text-white">
+	<header class="bg-gray-900">
+		<div class="container mx-auto flex justify-center items-center py-4">
+			<h1 id="largetTextXL" class="text-2xl font-bold capitialize">Screen Recorder</h1>
+		</div>
+	</header>
+
+	<main class="overflow-hidden">
+		<div class="container mx-auto py-8 px-4">
+			<h2 class="text-xl text-white-800 font-medium uppercase mb-4">Video Recorder</h2>
+			<video src="" autoplay
+				class="video-feedback bg-black w-full h-auto mt-10 mb-10 border-4 border-gray-500 border-opacity-100 rounded"></video>
+
+			<div class="flex justify-center items-center -mx-4 mb-8">
+				<button
+					class="start-recording mx-4 flex-1 bg-gradient-to-br from-red-500 to-pink-400 p-4 uppercase text-lg font-bold transition duration-300 hover:opacity-90 disabled:opacity-50 rounded">Start
+					Recording
+				</button>
+				<button
+					class="stop-recording mx-4 flex-1 bg-gradient-to-br from-red-500 to-pink-400 p-4 uppercase text-lg font-bold transition duration-300 hover:opacity-90 disabled:opacity-50 rounded"
+					disabled>Stop Recording
+				</button>
+			</div>
+			<div class="recorded-video-wrap hidden">
+				<h2 class="text-xl text-white-800 font-medium uppercase mb-4">Download Your Video</h2>
+				<video src="" autoplay
+					class="recorded-video bg-black w-full h-auto mb-4 border-4 border-gray-500 border-opacity-100 rounded mt-10 mb-10"></video>
+
+				<div class="flex justify-center items-center -mx-4 mb-8">
+					<a href=""
+						class="download-video text-center mx-4 flex-1 bg-gradient-to-br from-red-500 to-pink-400 p-4 uppercase text-lg font-bold transition duration-300 hover:opacity-90 disabled:opacity-50 rounded cursor-pointer"
+						disabled>Download Video
+					</a>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!-- I am so dumb Lol i have not linked the script file ( i can cut the video but i will not do it cuz i want to show what are the common mistakes developers make XD 😂) -->
+	<!-- Sorry Guys -->
+	<script src="./dist/main.js"></script>
+
+</body>
+
+</html>
